@@ -91,7 +91,7 @@ export default function RootLayout({
               </div>
             </div>
             <div className="border-t border-gray-800 pt-8 text-center text-gray-400 text-sm">
-              <p>&copy; 2026 CV Shop. Tất cả quyền được bảo lưu.</p>
+              <p>&copy; 2025 CV Shop. Tất cả quyền được bảo lưu.</p>
             </div>
           </div>
         </footer>
