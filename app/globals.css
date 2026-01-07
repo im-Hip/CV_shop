@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden; /* FIX LỆCH NGANG */
+}
+
 body {
   font-family: "Inter", "Segoe UI", system-ui, sans-serif;
   background: #ffffff;
@@ -33,3 +39,15 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #2563eb;
 }
+
+/* FIX Tawk.to làm tràn viewport */
+iframe[src*="tawk.to"] {
+  max-width: 100% !important;
+  right: 0 !important;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
